@@ -51,4 +51,4 @@
 Bees are dying due to climate change and human activities. Understanding bee dances can help track pollination, detect environmental stress, and support conservation efforts. This project turns keypoint data into actionable behavior insights.
 
 ## Live Demo
-[WiggleSense Live Web App](https://wigglesense-j7knamdyftvxmpabk2qibp.streamlit.app/)
+[WiggleSense Live Web App](https://wigglesense-fy2cewwikwk26q4cascorq.streamlit.app/)
