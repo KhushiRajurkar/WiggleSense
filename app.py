@@ -52,9 +52,12 @@ if uploaded_file:
         df["wiggle"], _ = detect_wiggle(df["angle_deg"])
         df["hive_health_score"] = df["angle_var"].apply(health_score)
 
+        # Convert wiggle to emoji for display
+        df["wiggle_display"] = df["wiggle"].apply(lambda x: "✅" if x else "❌")
+
         # --- Output Section ---
         st.subheader("Sample Predictions")
-        st.dataframe(df[["bee_id", "frame_id", "angle_deg", "wiggle", "hive_health_score"]].head(10))
+        st.dataframe(df[["bee_id", "frame_id", "angle_deg", "wiggle_display", "hive_health_score"]].head(10))
 
         # --- Plots ---
         st.subheader("Body Angle Over Time")
