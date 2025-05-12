@@ -14,6 +14,17 @@
 - Random Forest regression (direction)
 - Variance-based wiggle loop detection
 - Data-driven health scoring using quantiles
+  
+## 📊 Plots
+1) Wiggle Visualization (Sample Pose Image)
+![image](https://github.com/user-attachments/assets/f53636d8-de64-426e-b625-57a34a31e89b)
 
-## 🌍 Why This Matters
+2) Wiggle Loop Detection Line Plot
+![image](https://github.com/user-attachments/assets/68707f9b-63de-405c-b0b4-fe47c90cd1bd)
+
+3) Hive Health Score Bar Chart
+![image](https://github.com/user-attachments/assets/e5fdd5fc-569d-4d08-a982-0ce12c7a392c)
+
+
+## 🌼 Why This Matters
 Bees are dying due to climate change and human activities. Understanding bee dances can help track pollination, detect environmental stress, and support conservation efforts. This project turns keypoint data into actionable behavior insights.
